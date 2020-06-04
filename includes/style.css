@@ -1,0 +1,37 @@
+.atw-currency-price {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+}
+
+.atw-currency-price p {
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.atw-currency-price-names {
+  
+}
+
+.atw-currency-price-values {
+  margin-left: 16px;
+}
+
+.atw-currency-price-values div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.atw-currency-price-values i {
+  margin-right: 6px;
+}
+
+.varBidPositive {
+  color: green;
+}
+
+.varBidNegative {
+  color: red;
+}
